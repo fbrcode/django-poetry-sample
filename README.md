@@ -17,3 +17,7 @@ This is a sample project to show how to use Poetry with Django.
 11. `poetry run python manage.py runserver 8080`
 
 Access the admin page at <http://localhost:8080/admin/>
+
+## Polls app
+
+1. `poetry run python manage.py startapp polls`
