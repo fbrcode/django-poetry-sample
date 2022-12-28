@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-poetry-sample"
+version = "0.1.0"
+description = "Sample django project with poetry package manager"
+authors = ["Fabio Bressler <fabio.bressler@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "django_poetry_sample"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
