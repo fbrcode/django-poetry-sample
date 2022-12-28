@@ -21,3 +21,7 @@ Access the admin page at <http://localhost:8080/admin/>
 ## Polls app
 
 1. `poetry run python manage.py startapp polls`
+2. Modify `polls/view.py`, add `polls/urls.py`, and modify `django_project/urls.py`
+3. Startup app with `poetry run python manage.py runserver 8080`
+
+After mapping polls view content and mapping urls properly, access the admin page at <http://localhost:8080/polls/>
